@@ -1,0 +1,169 @@
+a {
+  color: black;
+}
+tr th:first-of-type,
+tr td:first-of-type a {
+  color: red;
+}
+tr th:last-of-type,
+tr td:last-of-type a {
+  color: blue;
+}
+header {
+  height: 80px;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+}
+header p {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+header select {
+  height: 1.7rem;
+}
+h1 {
+  color: gray;
+}
+table {
+  border-collapse: collapse;
+}
+
+
+th {
+  border: solid 1px black;
+  width: calc(100% / 7);
+  height: 2rem;
+}
+.create-form {
+  width: 100%;
+  border: 1px solid black;
+}
+.create-form p {
+  padding-left: 1rem;
+}
+.ym-form {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  /* height: 900px; */
+}
+.left {
+  width: 20%;
+  /* background-color: red; */
+}
+.nothing-left {
+  width: 20%;
+}
+.right {
+  width: 80%;
+  /* background-color: skyblue; */
+}
+h1 {
+  text-align: center;
+}
+table { 
+  margin: 0 auto;
+  width: 95%;
+  height: 830px;
+}
+tr th:first-of-type,
+tr td:first-of-type {
+  background-color: rgb(255, 226, 226);
+}
+tr th:last-of-type,
+tr td:last-of-type {
+  background-color: rgb(226, 247, 255);
+}
+td p {
+  margin: 0;
+  font-weight: bold;
+}
+.td-in-p {
+  height: 20%;
+  text-align: center;
+  margin-bottom: 4%;
+}
+.title-list {
+  height: 75%;
+  max-height: 2rem;
+}
+.title-list p:nth-child(n + 4) {
+  display: none;
+}
+.view {
+  border: 1px solid black;
+  margin-bottom: 1rem;
+}
+td {
+  border: solid 1px black;
+  width: calc(100% / 7);
+  /* height: 4rem; */
+  height: calc(100% /6 -2rem);
+  max-height: calc(100% / 4 -2rem);
+  padding: 0;
+  /* display: flex; */
+}
+td p {
+  position: relative;
+  top: -1.5rem;
+}
+.view-list {
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  /* background-color: rgb(211, 245, 255); */
+  border-bottom: solid 4px rgb(50, 245, 255);
+  margin-bottom: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+h4 {
+  text-align: center;
+  background-color: #eee;
+  color: green;
+}
+
+.p-mt-mb {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: small;
+}
+.p-mb {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.view-list p{
+  padding-left: 1rem;
+}
+.delete-btn {
+  color: blue;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.view-list p:last-of-type {
+  text-align: center;
+  border: 1px solid blue;
+  background-color: rgb(219, 252, 253);
+}
+.view-list p:first-of-type {
+  text-align: center;
+  margin-top: 0;
+  border-bottom: 1px solid black;
+}
+.view h4 {
+  margin-bottom: 0;
+}
+
+footer {
+  margin: 5rem 0;
+  padding-top: 2rem;
+  border-top: 1px solid black;
+  text-align: center;
+}
